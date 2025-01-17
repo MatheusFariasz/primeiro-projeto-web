@@ -1,0 +1,184 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #000000; 
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "main";
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerGeral {
+    display: grid;
+    grid-template-columns: 0.3fr 1.3fr 0.3fr;
+    background-color: hsl(0, 0%, 32%);
+    color: #f9d342;  
+    height: 150px;
+}
+
+
+.headerGeral .logo img{
+    width: 150px;
+    margin-left: 130px;
+}
+
+.headerGeral .menu{
+    margin: auto;
+    height: 100%;
+    line-height: 150px;
+}
+
+.headerGeral .menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.headerGeral .menu ul li
+{
+    margin-left: 30px;
+}
+
+.headerGeral .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.headerGeral .menu ul li a:hover{
+    transform: scale(1.15);
+    transition: 1;
+    color: #000000; 
+}   
+
+.headerGeral .botaoContato{
+    line-height: 150px;
+}
+
+.headerGeral .botaoContato button {
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9d342; 
+    color: #000000; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.5em;
+}
+
+.headerGeral .botaoContato button:hover {
+    background-color: #ffd700; 
+}
+
+/*Formulario*/
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.formulario h1, .formulario h2 {
+    color: #000000;
+    text-align: center;
+}
+
+.geral-form{
+    text-align: center; 
+    font-style: bold;
+    font-size: 30px;
+}
+
+.geral-form h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+form {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    margin-bottom:25px;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 25px;
+    color: #333;
+}
+
+.form input, .form select, .form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form input[type="radio"], .form input[type="checkbox"] {
+    width: auto;
+}
+
+.form button {
+    background-color: #f9d342;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #e6c33a;
+    transform: scale(1.01);
+}
+
+.radio, .checkbox {
+    display: flex;
+    gap: 10px;
+}
+
+.radio label, .checkbox label {
+    font-size: 14px;
+    color: #333;
+}
+
+.formulario > div:last-child {
+    text-align: center;
+    font-size: 18px;
+    color: #28a745;
+    margin-top: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(0, 0%, 32%);
+    font-size: 0.9em;
+}
+
+footer p {
+    color: white;
+}

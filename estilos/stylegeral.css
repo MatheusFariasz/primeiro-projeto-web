@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #000000; 
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "main";
+    height: 100vh;
+}
+
+
+.headerGeral {
+    display: grid;
+    grid-template-columns: 0.3fr 1.3fr 0.3fr;
+    background-color: hsl(0, 0%, 32%);
+    color: #f9d342;  
+    height: 150px;
+}
+
+
+.headerGeral .logo img{
+    width: 150px;
+    margin-left: 130px;
+}
+
+.headerGeral .menu{
+    margin: auto;
+    height: 100%;
+    line-height: 150px;
+}
+
+.headerGeral .menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.headerGeral .menu ul li
+{
+    margin-left: 30px;
+}
+
+.headerGeral .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.headerGeral .menu ul li a:hover{
+    transform: scale(1.15);
+    transition: 1;
+    color: #000000; 
+}   
+
+.headerGeral .botaoContato{
+    line-height: 150px;
+}
+
+.headerGeral .botaoContato button {
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9d342; 
+    color: #000000; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.5em;
+}
+
+.headerGeral .botaoContato button:hover {
+    background-color: #ffd700; 
+}
+
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; 
+    padding: 30px;
+    background-color: #161616;
+}
+
+.navegar-pagina{
+    position: sticky;
+    text-align: center;   
+    color: #f9d342;
+    background-color: #999999;
+}
+
+.navegar-pagina ul{
+    gap: 15px;
+    list-style: none;
+    font-size: 20px;
+}
+
+section, article {
+    padding: 20px;  
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h1, h2, h3 {
+    color: #f9d342;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color: #f9d342;
+}
+
+p {
+    color: #D5E8E2;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(0, 0%, 32%);
+    font-size: 0.9em;
+}
+
+footer p {
+    color: white;
+}
+
+aside{
+    text-align: center;
+    background-color: #999999;
+}
+
+

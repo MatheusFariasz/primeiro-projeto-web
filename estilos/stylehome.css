@@ -1,0 +1,92 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+    background: white;
+    border-radius: 8px;
+}   
+
+table thead {
+    background-color: #f9d342; 
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.infos-gerais{
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+          
+
+.infos-gerais img {
+    margin-top: 25px;
+    margin-bottom: 30px
+}
+
+.infos-gerais img:hover{
+    transform: scale(1.05);
+}
+
+.link-infos{
+    text-decoration: none;
+    color: #000000; 
+    font-weight: bold; 
+    font-size: 21px;
+}
+
+.link-infos:hover{
+    color: #f9d342; 
+    transform: scale(1.05);
+}
+
+
+section {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    text-align: center;  
+    padding: 20px;
+}
+
+.infosLendas a {
+    display: block;
+    text-align: center;
+}
+
+
+.infosLendas img {
+    max-width: 100%; 
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+.infosLendas a {
+    text-decoration: none;
+    color: #000000; 
+    font-size: 22px; 
+}
+
+.infosLendas a:hover {
+    color: #f9d342; 
+    transform: scale(1.05);
+}
+
+header .infos{
+    font-size: 30px;
+}

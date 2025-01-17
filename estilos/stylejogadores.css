@@ -1,0 +1,66 @@
+#video
+{
+    text-align: center;
+    border: 1px soldi red;
+}
+
+.navega-jogador{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.infos-jogador{
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.infos-jogador img {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.infos-jogador img:hover{
+    transform: scale(1.05);
+}
+
+.link-jogador{
+    text-decoration: none;
+    color: #000000; 
+    font-weight: bold; 
+    font-size: 21px;
+}
+
+.link-jogador:hover{
+    color: #f9d342; 
+    transform: scale(1.05);
+}
+
+article .bio-jogador{
+    text-align: center;
+}
+
+.wiki-jogador a {
+    display: block;
+    text-align: center;
+}
+
+
+.wiki-jogador img {
+    max-width: 100%; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.wiki-jogador a {
+    text-decoration: none;
+    color: #000000; 
+    font-size: 22px; 
+}
+
+.wiki-jogador a:hover {
+    color: #f9d342; 
+    transform: scale(1.05);
+}
