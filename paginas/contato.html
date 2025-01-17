@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lendas do Futebol - CONTATO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/estilos/stylecontato.css">
+</head>
+<body>
+    
+    <header>
+        <div class="headerGeral">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/imagens/logo.png" alt="Lendas do futebol LOGO">
+                </a>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="pele.html">Pelé</a></li>
+                    <li><a href="maradona.html">Maradona</a></li>
+                    <li><a href="CR7.html">Cristiano Ronaldo</a></li>
+                    <li><a href="ronaldo.html">Ronaldo Názario</a></li>
+                    <li><a href="cruyff.html">Johan Cruyff</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+
+    <main>
+        
+        <section>
+            <div class="formulario">
+                <div class="geral-form">
+                    <h1>Entre em contato conosco</h1>
+                    <h3>Tudo sobre o mundo futibolístico</h3>
+                </div>
+        
+                <div>
+                    <form action="formulario.html" method="get">
+                        <div class="form">
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+        
+                        <div class="form">
+                            <label for="idade">Idade:</label>
+                            <input type="number" id="idade" name="idade" min="1" max="120" required>
+                        </div>
+        
+                        <div class="form">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+        
+                        <div class="form">
+                            <label for="pais">País de Origem:</label>
+                            <select id="pais" name="pais" required>
+                                <option value="">Selecione</option>
+                                <option value="brasil">Brasil</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Paraguai">Paraguai</option>
+                                <option value="Uruguai">Uruguai</option>
+                                <option value="Estados Unidos">Estados Unidos</option>
+                                <option value="Canadá">Canadá</option>
+                                <option value="portugal">Portugal</option>
+                                <option value="Espanha">Espanha</option>
+                                <option value="Alemanha">Alemanha</option>
+
+                            </select>
+                        </div>
+        
+                        <div class="form">
+                            <label>Gênero:</label>
+                            <div class="radio">
+                                <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
+                                <label><input type="radio" name="genero" value="feminino" required> Feminino</label>
+                                <label><input type="radio" name="genero" value="outro" required> Outro</label>
+                            </div>
+                        </div>
+        
+                        <div class="form">
+                            <label>Fanatismo:</label>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="interesses" value="Masculino"> Gosto de futebol</label>
+                                <label><input type="checkbox" name="interesses" value="feminino"> Não gosto de futebol</label>
+                                <label><input type="checkbox" name="interesses" value="nao comentar"> Não comentar</label>
+                            </div>
+                        </div>
+        
+                        <div class="form">
+                            <label for="mensagem">Dê um FeedBack:</label>
+                            <textarea id="mensagem" name="feedback" rows="4" placeholder="Escreva aqui sua mensagem"></textarea>
+                        </div>
+        
+                        <div class="form">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+        
+                <div>
+                    <p>Obrigado pelo contato com nossa equipe!</p>
+                    <p>Fale Conosco via e-mail: LendasdoFutebol@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div>
+            <p>&copy; Site Lendas Do Futebol | Vinicius de Brito, Matheus Farias e Guilherme Lizzi. Todos os direitos reservados aos criadores. - IFSP São Carlos 2024/2</p>
+        </div>
+    </footer>
+    </body>
+    </html>
