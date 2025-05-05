@@ -93,5 +93,4 @@ Este arquivo documenta os pontos de melhoria destacados pelo professor Thiago Tr
 
 ---
 
-## Nota Final
 Esses pontos serão revisados e corrigidos nas próximas versões do projeto. Obrigado pelo feedback, professor!
